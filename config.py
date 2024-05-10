@@ -11,7 +11,7 @@ OWNER_ID = int(getenv("OWNER_ID", 6566179661))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "ll_THE_BAD_BOT_ll")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "ll_BAD_MUNDA_WORLD_ll")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "II_BAD_BBY_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_BAD_MUNDA_II")
 
 # Random Start Images
 IMG = [
