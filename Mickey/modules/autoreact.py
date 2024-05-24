@@ -13,7 +13,7 @@ emojis = ["👍", "👎", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "�
 
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=token)
 
-@app.on_message()
+@MickeyBot.on_message()
 async def react_to_message(client, message):
     chat_id = message.chat.id
     message_id = message.id
