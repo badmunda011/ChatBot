@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 import requests
 import random
+import config
 
 api_id = 26480985 #--Add your Api Id here
 api_hash = '56c935fae1c5c86ba5a3af655f8caa9d' #--Enter Api Hash Here
