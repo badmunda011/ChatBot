@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python3 -m Mickey
     repo: https://github.com/badmunda011/ChatBot
-    branch: main
+    branch: Dev
     autoDeploy: false
     envVars:
       - key: BOT_TOKEN
